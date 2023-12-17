@@ -1,0 +1,43 @@
+// repeatable calsses that are uses most of the times
+.pointer{
+  cursor: pointer;
+}
+h1{
+  font-weight: 700;
+  font-size: clamp(40px,2vw,48px);
+}
+.rotate90{
+  transform: rotate(90deg);
+}
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px;
+  border-radius: 12px;
+}
+.r-12{
+  border-radius: 12px;
+}
+.r-16{
+  border-radius: 16px;
+}
+.r-20{
+  border-radius: 20px;
+}
+.border{
+  border-color: rgb(131, 120, 120) !important;
+}
+.ltr{
+  direction: ltr !important;
+}
+.rtl{
+  direction: rtl !important;
+}
+.bg-blueDark{
+  background: #272c49 !important;
+  color: #fff !important;
+  width: 31% !important;
+  max-width: 31% !important;
+}
+.w-35{
+  width: 35% !important;
+}

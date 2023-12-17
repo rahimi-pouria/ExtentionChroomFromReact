@@ -1,0 +1,229 @@
+// all fontfaces and font classes stored here
+// classes like f22-400 are font classes that first number is font size and second number
+// is font weigth
+// clamp is a function for responsive font size or any other property read more on
+// https://developer.mozilla.org/en-US/docs/Web/CSS/clamp#:~:text=The%20clamp()%20CSS%20function,and%20a%20maximum%20allowed%20value.
+@font-face {
+  font-family: 'Vazir';
+  src: url('../css/fonts/Vazirmatn.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IranSans';
+  src: url('../css/fonts/YEKANBAKH-MEDIUM.TTF');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VazirBold';
+  src: url('../css/fonts/Vazir-Bold.woff2');
+  font-weight: 900;
+}
+.fBold{
+  font-family: 'VazirBold' !important;
+}
+.banner-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(14px,3vw,24px);
+  line-height: 150%;
+}
+.link12-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(10px,1vw,12px);
+  line-height: 120%;
+  text-decoration: underline;
+}
+.link12-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(10px,1vw,12px);
+  line-height: 120%;
+  text-decoration: underline;
+}
+.f10-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(8px,1vw,10px);
+  line-height: 120%;
+}
+.f12-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(10px,1vw,12px);
+  line-height: 120%;
+}
+.f12-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(10px,1vw,12px);
+  line-height: 120%;
+}
+.f11-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(9px,1vw,11px);
+  line-height: 120%;
+}
+.f11-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(9px,1vw,11px);
+  line-height: 120%;
+}
+.f14-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(12px,1vw,14px);
+  line-height: 120%;
+}
+.f14-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(12px,1vw,14px);
+  line-height: 120%;
+}
+.f15-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(13px,2vw,15px);
+  line-height: 120%;
+}
+.f15-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(13px,2vw,15px);
+  line-height: 120%;
+}
+.f16-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(10px,2vw,16px);
+  line-height: 120%;
+}
+.f16-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(10px,2vw,16px);
+  line-height: 120%;
+}
+.f18-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px,2vw,18px);
+  line-height: 120%;
+}
+.f18-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(15px,2vw,18px);
+  line-height: 120%;
+}
+.f20-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(17px,2vw,20px);
+  line-height: 120%;
+}
+.f20-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(17px,2vw,20px);
+  line-height: 120%;
+}
+.f22-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(20px,2vw,22px);
+  line-height: 120%;
+}
+.f22-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(20px,2vw,22px);
+  line-height: 120%;
+}
+.f24-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(20px,2vw,24px);
+  line-height: 120%;
+}
+.f24-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(20px,2vw,24px);
+  line-height: 120%;
+}
+.f28-400 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 3vw, 28px);
+  line-height: 120%;
+}
+.f28-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(25px,3vw,28px);
+  line-height: 120%;
+}
+.f28-500{
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(25px,3vw,28px);
+  line-height: 120%;
+}
+.f30-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(27px,3vw,30px);
+  line-height: 120%;
+}
+.f30-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(27px,3vw,30px);
+  line-height: 120%;
+}
+.f32-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(28px,3vw,32px);
+  line-height: 120%;
+}
+.f36-400{
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(32px,3vw,36px);
+  line-height: 120%;
+}
+.f36-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(26px,1vw,36px);
+  line-height: 120%;
+}
+.f38-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(34px,3vw,38px);
+  line-height: 120%;
+}
+.f40-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(32px,3vw,40px);
+  line-height: 120%;
+}
+.f48-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(40px,3vw,48px);
+  line-height: 120%;
+}
+.f72-700{
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(68px,3vw,72px);
+  line-height: 120%;
+}

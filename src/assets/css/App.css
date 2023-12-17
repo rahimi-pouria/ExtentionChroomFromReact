@@ -1,0 +1,16 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+body{
+     background: url('https://s31.picofile.com/file/8470559718/damavand.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height:534px;
+     padding: 40px 60px;
+}
