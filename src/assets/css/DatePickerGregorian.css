@@ -1,0 +1,14 @@
+
+.my-custom-datepicker {
+   }
+   
+   .my-custom-datepicker input {
+     border: 1px solid #ccc;
+     padding: 5px;
+     border-radius: 3px;
+   }
+   
+   .my-custom-datepicker .react-datepicker__header {
+     background-color: #4caf50;
+     color: white;
+   }
