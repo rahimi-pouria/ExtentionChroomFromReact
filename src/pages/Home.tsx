@@ -3,6 +3,7 @@ import Weather from '../components/Weather';
 import DatePersian from '../components/DatePersian';
 import DatePickerEm from 'components/DatePickerEm';
 import DatePickerFa from 'components/DatePickerFa';
+import SearchGoogle from 'components/SearchGoogle';
 function Home() {
   return (
      <div className="flex w-full gap-[10px]">
@@ -22,12 +23,12 @@ function Home() {
           <DatePickerFa />
         </div>
         {/* show date picker english */}
-        <div className="flex w-full  text-white p-5 bg-[#495667] rounded-[16px]">
+        {/* <div className="flex w-full  text-white p-5 bg-[#495667] rounded-[16px]">
           <DatePickerEm />
-        </div>
+        </div> */}
      </div>
-     <div className="flex w-[50%]">
-      search google
+     <div className="flex w-[50%] h-[160px]">
+        <SearchGoogle />
      </div>
      <div className="flex w-[25%]">
       show date
