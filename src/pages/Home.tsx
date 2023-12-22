@@ -4,6 +4,8 @@ import DatePersian from '../components/DatePersian';
 import DatePickerEm from 'components/DatePickerEm';
 import DatePickerFa from 'components/DatePickerFa';
 import SearchGoogle from 'components/SearchGoogle';
+import ToolsComponent from 'components/ToolsComponent';
+import NewVideo from 'components/NewVideo';
 function Home() {
   return (
      <div className="flex w-full gap-[10px]">
@@ -27,11 +29,12 @@ function Home() {
           <DatePickerEm />
         </div> */}
      </div>
-     <div className="flex w-[50%] h-[160px]">
+     <div className="flex flex-col w-[50%] gap-[16px]">
         <SearchGoogle />
+        <ToolsComponent />
      </div>
      <div className="flex w-[25%]">
-      show date
+     <NewVideo />
      </div>
   </div>
   )

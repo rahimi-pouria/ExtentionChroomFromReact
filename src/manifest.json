@@ -1,0 +1,29 @@
+{
+     "manifest_version": 2,
+     "name": "Date Converter & YouTube Viewer",
+     "version": "1.0",
+     "description": "The Date Converter & YouTube Viewer is a Chrome extension that provides a convenient way to view both Gregorian (Western) and Persian (Shamsi) dates. The extension allows users to perform searches directly from the Chrome browser, and each search is saved for quick access later. Additionally, the extension displays the latest YouTube videos, offering a seamless way to stay updated with the newest content.",
+     "author": "pouria Rahimi",
+     "react_version": "^18.2.0",
+     "icons": {
+       "48": "icon.png",
+       "128": "icon.png"
+     },
+     "browser_action": {
+       "default_icon": "icon.png",
+       "default_popup": "popup.html"
+     },
+     "permissions": [
+       "activeTab"
+     ],
+     "content_scripts": [
+       {
+         "matches": ["<all_urls>"],
+         "js": ["content.js"]
+       }
+     ],
+     "web_accessible_resources": [
+       "content.js"
+     ]
+   }
+   

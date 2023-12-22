@@ -18,7 +18,7 @@ function SearchGoogle(){
 
      return(
           <>
-               <div className="flex flex-col gap-2 w-full py-[10px] items-center justify-center  text-white p-5 bg-[#495667] rounded-[16px]">
+               <div className="flex flex-col h-[160px] gap-2 w-full py-[10px] items-center justify-center  text-white p-5 bg-[#495667] rounded-[16px]">
                     <img className="w-[100px]" src="https://s30.picofile.com/file/8470713350/seasonal_holidays_2023_6753651837110165_sdrk.png" alt="" />
                     <div className="flex w-full gap-3">
                          <button onClick={searchGoogle} className="btn-primary border py-3 px-4 h-[33px] bg-[#3c9bf3] border-[#3c9bf3] flex items-center justify-center rounded-[16px]">....جستجو</button>
